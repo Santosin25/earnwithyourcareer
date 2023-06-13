@@ -18,7 +18,7 @@ function CareerEdutech() {
         <div className="flex flex-col items-center justify-center h-64 text-xl font-bold text-center text-gray-100 gap-y-5 lg:h-72">
           <Link href="/" target="_parent">
             <h1 className="text-3xl text-center w-80 md:w-[360px] xl:text-4xl lg:w-[450px] xl:w-[550px] font-bold text-blue-100">
-              EarnWithYourCareer.com
+              EarnWithYourCareer.blog
             </h1>
           </Link>
         </div>

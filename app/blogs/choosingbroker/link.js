@@ -5,7 +5,7 @@ import brokerchoosing from "./../../../public/african-man-fx.jpg";
 export default function LinkChoosingBroker() {
   return (
     <div className="linkClass group">
-      <Link href="/blogs/chooseingbroker" target="_parent">
+      <Link href="/blogs/choosingbroker" target="_parent">
         <div className="container">
           <div className="">
             <Image

@@ -14,6 +14,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "forex-hero": "url('./../public/forex.jpeg')",
+        "crypto-hero": "url('./../public/manyCrypto.jpeg')",
         "internet-edt": "url('./../public/internet-edt.jpeg')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

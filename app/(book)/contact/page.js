@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function Contact() {
   return (
-    <div className="bg-gray-900">
+    <div>
       <main className="mainElement bg-gray-800  text-gray-50">
         <section className="sectionElement">
           <article className="articleElement">

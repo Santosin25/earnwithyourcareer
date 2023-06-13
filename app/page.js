@@ -10,7 +10,7 @@ export default function Home() {
         <section className="bg-blue-900 bg-center bg-no-repeat bg-forex-hero bg-cover select-none h-fit">
           <div className="flex flex-col items-center justify-center h-64 text-xl font-bold text-center text-gray-100 gap-y-5 lg:h-72">
             <h1 className="text-3xl text-center w-80 md:w-[360px] xl:text-4xl lg:w-[450px] xl:w-[550px] font-bold text-blue-100">
-              EarnWithYourCareer.com
+              EarnWithYourCareer.blog
             </h1>
           </div>
         </section>

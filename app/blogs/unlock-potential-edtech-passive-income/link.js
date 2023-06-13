@@ -6,7 +6,7 @@ export default function LinkUnlockPotentailEdtechPassiveIncome() {
   return (
     <div className="linkClass group">
       <Link
-        href="/blogs/unlock-potentail-edtech-passive-income"
+        href="/blogs/unlock-potential-edtech-passive-income"
         target="_parent"
       >
         <div className="container">
