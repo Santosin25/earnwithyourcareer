@@ -11,7 +11,7 @@ export default function Contact() {
   return (
     <div>
       <main className="mainElement bg-gray-800  text-gray-50">
-        <section className="sectionElement">
+        <section className=" text-left box-border">
           <article className="articleElement">
             <div className="allDivElement">
               <h1 className="font-extrabold text-center py-10 pb-3 xl:text-4xl text-3xl text-gray-100">
