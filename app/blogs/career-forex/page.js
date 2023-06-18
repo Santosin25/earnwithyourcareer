@@ -1,17 +1,80 @@
-export const metadata = {
-  title: "Career in Forex Trading | EarnWithYourCareer",
-  description:
-    "Are you interested in a career in Forex trading? Learn about the potential opportunities, risks, and rewards of this exciting field. Get tips on how to get started and what to expect from a career in Forex trading.",
-  keywords: ["forex", "Broker"],
-  author: "Olajubu Oluwatosin",
-  language: "en-US",
-};
-
 import BlogLinkerCareerForex from "./BlogLinkers";
+import { NextSeo } from "next-seo";
 
 function CareerForex() {
   return (
     <div>
+      <NextSeo
+        title="Career in Forex Trading | EarnWithYourCareer"
+        description="Are you interested in a career in Forex trading? Learn about the potential opportunities, risks, and rewards of this exciting field. Get tips on how to get started and what to expect from a career in Forex trading."
+        canonical="https://www.earnwithyourcareer.blog/blogs/career-forex"
+        openGraph={{
+          url: "https://www.earnwithyourcareer.blog/blogs/career-forex",
+          title: "Career in Forex Trading | EarnWithYourCareer",
+          description:
+            "Are you interested in a career in Forex trading? Learn about the potential opportunities, risks, and rewards of this exciting field. Get tips on how to get started and what to expect from a career in Forex trading.",
+          images: [
+            {
+              url: "https://earnwithyourcareer.blog/_next/static/media/internet-edt.a5980c91.jpeg",
+              width: 800,
+              height: 600,
+              alt: "Og Image Alt",
+            },
+          ],
+          site_name: "EarnWithTourCareer",
+          keywords: ["forex", "Broker"],
+          languageAlternate: [
+            {
+              hrefLang: "en-US",
+              href: "https://earnwithyourcareer.blog/en-us",
+            },
+            {
+              hrefLang: "es-UK",
+              href: "https://earnwithyourcareer.blog/es-uk",
+            },
+          ],
+          author: {
+            name: "Olajubu Oluwatosin",
+            email: "ctosin25@gmail.com",
+            url: "https://earnwithyourcareer.blog/",
+          },
+          facebook: {
+            appId: "3386495838232099",
+            publisher:
+              "https://web.facebook.com/profile.php?id=100083802420253",
+          },
+          linkedin: {
+            title: "EarnWithTourCareer",
+            description:
+              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
+            url: "https://linkedin.com/company/lifehelper/",
+            site_name: "EarnWithTourCareer",
+            images: [
+              {
+                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
+                width: 800,
+                height: 600,
+                alt: "LinkedIn Image Alt",
+              },
+            ],
+          },
+          youtube: {
+            title: "EarnWithTourCareer",
+            description:
+              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
+            url: "https://youtube.com/playlist?list=PLw17loBT6C2vS0bTUH4-x-0OMKxH47ZaY",
+            site_name: "EarnWithTourCareer",
+            images: [
+              {
+                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
+                width: 800,
+                height: 600,
+                alt: "YouTube Image Alt",
+              },
+            ],
+          },
+        }}
+      />
       <main className="mainElement">
         <section className="sectionElement secHeaderDivider">
           <article className="articleElement">
@@ -58,43 +121,43 @@ function CareerForex() {
               </h2>
               <div className="allDivElement space-y-3">
                 <p>
-                    Forex trading is a lucrative career opportunity for those who
-                    have the right skills and knowledge. It offers a wide range of
-                    opportunities, from day trading to long-term investments.
-                    Traders can work independently or join a brokerage firm 
-                  to gain access to more resources and better trading conditions.
-                  </p>
-                  <p>
-                    Day traders are those who buy and sell currencies within the
-                    same day, taking advantage of short-term price movements. They
-                    need to be able to quickly analyze market conditions and make
-                    decisions based on their analysis. Day traders typically use
-                    technical analysis tools such as charting software and
-                    indicators to identify potential trades.
-                  </p>
-                  <p>
-                    Long-term investors are those who hold positions for weeks or
-                    months at a time, looking for larger price movements ov
-                  time.   time. They need to be able to identify trends in th
-er                an  mak  deand make decisions based on their analysis o.
-                  Long-term   Long-term investors typically use fundamental an
-as                such as   such as economic data and news releases to identify
-                  potential
-                    trades.
-                  </p>
-                  <p>
-                 traders   Brokers provide access to the forex market by conn
-  e               Brokers   traders with liquidity providers (banks, hedgec.).
-                  research,   Brokers also provide services such as account ma
-  n               charge   research, education, and customer support. Brokers typically
-                    charge commissions or fees for their services.
-                  </p>
-                  <p>
-                 those   Finally, there are also opportunities in forex tr
-  af              known as   those who want to develop automated trading syste
-  m               analyze   known as Expert Advisors). These systems use algorit
-  ht              can be   analyze market data in order to generate buy/sell signals that
-                    can be used by traders or automated trading systems.
+                  Forex trading is a lucrative career opportunity for those who
+                  have the right skills and knowledge. It offers a wide range of
+                  opportunities, from day trading to long-term investments.
+                  Traders can work independently or join a brokerage firm to
+                  gain access to more resources and better trading conditions.
+                </p>
+                <p>
+                  Day traders are those who buy and sell currencies within the
+                  same day, taking advantage of short-term price movements. They
+                  need to be able to quickly analyze market conditions and make
+                  decisions based on their analysis. Day traders typically use
+                  technical analysis tools such as charting software and
+                  indicators to identify potential trades.
+                </p>
+                <p>
+                  Long-term investors are those who hold positions for weeks or
+                  months at a time, looking for larger price movements ov time.
+                  time. They need to be able to identify trends in th er an mak
+                  deand make decisions based on their analysis o. Long-term
+                  Long-term investors typically use fundamental an as such as
+                  such as economic data and news releases to identify potential
+                  trades.
+                </p>
+                <p>
+                  traders Brokers provide access to the forex market by conn e
+                  Brokers traders with liquidity providers (banks, hedgec.).
+                  research, Brokers also provide services such as account ma n
+                  charge research, education, and customer support. Brokers
+                  typically charge commissions or fees for their services.
+                </p>
+                <p>
+                  those Finally, there are also opportunities in forex tr af
+                  known as those who want to develop automated trading syste m
+                  analyze known as Expert Advisors). These systems use algorit
+                  ht can be analyze market data in order to generate buy/sell
+                  signals that can be used by traders or automated trading
+                  systems.
                 </p>
               </div>
             </div>

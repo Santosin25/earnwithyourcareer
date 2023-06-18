@@ -1,18 +1,81 @@
-export const metadata = {
-  title:
-    "The Ultimate Guide to Becoming a Professional Crypto Trader | EarnWithYourCareer",
-  description:
-    "Cryptocurrency trading is becoming increasingly popular as more people become aware of the potential for making money in this market. With the rise of Bitcoin and other digital currencies, many people are looking to get involved in the world of crypto trading. However, it can be difficult to know where to start and how to become a successful trader. This guide will provide you with all the information you need to become a professional crypto trader.",
-  keywords: ["career", "Professional Crypto Trader"],
-  author: "Olajubu Oluwatosin",
-  language: "en-US",
-};
-
 import BlogLinkerProfessionalCryptoTrader from "./BlogLinkers";
+import { NextSeo } from "next-seo";
 
 function ProfessionalCryptoTrader() {
   return (
     <div>
+      <NextSeo
+        title="The Ultimate Guide to Becoming a Professional Crypto Trader | EarnWithYourCareer"
+        description="Cryptocurrency trading is becoming increasingly popular as more people become aware of the potential for making money in this market. With the rise of Bitcoin and other digital currencies, many people are looking to get involved in the world of crypto trading. However, it can be difficult to know where to start and how to become a successful trader. This guide will provide you with all the information you need to become a professional crypto trader."
+        canonical="https://www.earnwithyourcareer.blog/blogs/professional-cryptotrader"
+        openGraph={{
+          url: "https://www.earnwithyourcareer.blog/blogs/professional-cryptotrader",
+          title:
+            "The Ultimate Guide to Becoming a Professional Crypto Trader | EarnWithYourCareer",
+          description:
+            "Cryptocurrency trading is becoming increasingly popular as more people become aware of the potential for making money in this market. With the rise of Bitcoin and other digital currencies, many people are looking to get involved in the world of crypto trading. However, it can be difficult to know where to start and how to become a successful trader. This guide will provide you with all the information you need to become a professional crypto trader.",
+          images: [
+            {
+              url: "https://earnwithyourcareer.blog/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmake-money-online.4505dc11.jpg&w=128&q=75",
+              width: 800,
+              height: 600,
+              alt: "Og Image Alt",
+            },
+          ],
+          site_name: "EarnWithTourCareer",
+          keywords: ["career", "Professional Crypto Trader"],
+          languageAlternate: [
+            {
+              hrefLang: "en-US",
+              href: "https://earnwithyourcareer.blog/en-us",
+            },
+            {
+              hrefLang: "es-UK",
+              href: "https://earnwithyourcareer.blog/es-uk",
+            },
+          ],
+          author: {
+            name: "Olajubu Oluwatosin",
+            email: "ctosin25@gmail.com",
+            url: "https://earnwithyourcareer.blog/",
+          },
+          facebook: {
+            appId: "3386495838232099",
+            publisher:
+              "https://web.facebook.com/profile.php?id=100083802420253",
+          },
+          linkedin: {
+            title: "EarnWithTourCareer",
+            description:
+              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
+            url: "https://linkedin.com/company/lifehelper/",
+            site_name: "EarnWithTourCareer",
+            images: [
+              {
+                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
+                width: 800,
+                height: 600,
+                alt: "LinkedIn Image Alt",
+              },
+            ],
+          },
+          youtube: {
+            title: "EarnWithTourCareer",
+            description:
+              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
+            url: "https://youtube.com/playlist?list=PLw17loBT6C2vS0bTUH4-x-0OMKxH47ZaY",
+            site_name: "EarnWithTourCareer",
+            images: [
+              {
+                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
+                width: 800,
+                height: 600,
+                alt: "YouTube Image Alt",
+              },
+            ],
+          },
+        }}
+      />
       <main className="mainElement">
         <section className="sectionElement secHeaderDivider">
           <article className="articleElement">
