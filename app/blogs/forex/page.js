@@ -1,5 +1,4 @@
 import Link from "next/link";
-
 export const metadata = {
   title: "What Is Forex - A Beginner Guild To FX | EarnWithYourCareer",
   description:
@@ -8,84 +7,12 @@ export const metadata = {
   author: "Olajubu Oluwatosin",
   language: "en-US",
 };
-import { NextSeo } from "next-seo";
 
 import BlogLinkerForex from "./BlogLinkers";
 
 function Forex() {
   return (
     <div>
-      <NextSeo
-        title="What Is Forex - A Beginner Guild To FX | EarnWithYourCareer"
-        description="Forex Market or FX is the process of exchanging one currency into another for commercial purpose. It's also the market for exchanging global currency. For example 1 Dollar to a Euro."
-        canonical="https://www.earnwithyourcareer.blog/blogs/forex"
-        openGraph={{
-          url: "https://www.earnwithyourcareer.blog/blogs/forex",
-          title: "What Is Forex - A Beginner Guild To FX | EarnWithYourCareer",
-          description:
-            "Forex Market or FX is the process of exchanging one currency into another for commercial purpose. It&apos;s also the market for exchanging global currency. For example 1 Dollar to a Euro.",
-          images: [
-            {
-              url: "https://earnwithyourcareer.blog/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmake-money-online.4505dc11.jpg&w=128&q=75",
-              width: 800,
-              height: 600,
-              alt: "Og Image Alt",
-            },
-          ],
-          site_name: "EarnWithTourCareer",
-          keywords: [" Forex Trade", "Learn", "career"],
-          languageAlternate: [
-            {
-              hrefLang: "en-US",
-              href: "https://earnwithyourcareer.blog/en-us",
-            },
-            {
-              hrefLang: "es-UK",
-              href: "https://earnwithyourcareer.blog/es-uk",
-            },
-          ],
-          author: {
-            name: "Olajubu Oluwatosin",
-            email: "ctosin25@gmail.com",
-            url: "https://earnwithyourcareer.blog/",
-          },
-          facebook: {
-            appId: "3386495838232099",
-            publisher:
-              "https://web.facebook.com/profile.php?id=100083802420253",
-          },
-          linkedin: {
-            title: "EarnWithTourCareer",
-            description:
-              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
-            url: "https://linkedin.com/company/lifehelper/",
-            site_name: "EarnWithTourCareer",
-            images: [
-              {
-                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
-                width: 800,
-                height: 600,
-                alt: "LinkedIn Image Alt",
-              },
-            ],
-          },
-          youtube: {
-            title: "EarnWithTourCareer",
-            description:
-              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
-            url: "https://youtube.com/playlist?list=PLw17loBT6C2vS0bTUH4-x-0OMKxH47ZaY",
-            site_name: "EarnWithTourCareer",
-            images: [
-              {
-                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
-                width: 800,
-                height: 600,
-                alt: "YouTube Image Alt",
-              },
-            ],
-          },
-        }}
-      />
       <main>
         <section className="mt-16 bg-blue-900 bg-center bg-no-repeat bg-cover select-none h-fit bg-forex-hero mix-blend-darken">
           <div className="flex flex-col items-center justify-center h-64 text-xl font-bold text-center text-gray-100 gap-y-5 lg:h-72">

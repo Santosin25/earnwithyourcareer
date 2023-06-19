@@ -2,83 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import unstopable from "./unstopable.png";
 import BlogLink from "./components/BlogLink";
-// mix-blend-darken bg-gray-50
-import { NextSeo } from "next-seo";
 
 export default function Home() {
   return (
     <>
-      <NextSeo
-        title="Home | EarnWithYourCareer"
-        description="We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life."
-        canonical="https://www.earnwithyourcareer.blog/"
-        openGraph={{
-          url: "https://www.earnwithyourcareer.blog/",
-          title: "Home | EarnWithYourCareer",
-          description:
-            "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
-          images: [
-            {
-              url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
-              width: 800,
-              height: 600,
-              alt: "Og Image Alt",
-            },
-          ],
-          site_name: "EarnWithTourCareer",
-          keywords: ["EarnWithYourCareer", "Earn", "career"],
-          languageAlternate: [
-            {
-              hrefLang: "en-US",
-              href: "https://earnwithyourcareer.blog/en-us",
-            },
-            {
-              hrefLang: "es-UK",
-              href: "https://earnwithyourcareer.blog/es-uk",
-            },
-          ],
-          author: {
-            name: "Olajubu Oluwatosin",
-            email: "ctosin25@gmail.com",
-            url: "https://earnwithyourcareer.blog/",
-          },
-          facebook: {
-            appId: "3386495838232099",
-            publisher:
-              "https://web.facebook.com/profile.php?id=100083802420253",
-          },
-          linkedin: {
-            title: "EarnWithTourCareer",
-            description:
-              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
-            url: "https://linkedin.com/company/lifehelper/",
-            site_name: "EarnWithTourCareer",
-            images: [
-              {
-                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
-                width: 800,
-                height: 600,
-                alt: "LinkedIn Image Alt",
-              },
-            ],
-          },
-          youtube: {
-            title: "EarnWithTourCareer",
-            description:
-              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
-            url: "https://youtube.com/playlist?list=PLw17loBT6C2vS0bTUH4-x-0OMKxH47ZaY",
-            site_name: "EarnWithTourCareer",
-            images: [
-              {
-                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
-                width: 800,
-                height: 600,
-                alt: "YouTube Image Alt",
-              },
-            ],
-          },
-        }}
-      />
       <main className="text-gray-950 bg-gray-100">
         <section className="bg-blue-900 bg-center bg-no-repeat bg-forex-hero bg-cover select-none h-fit">
           <div className="flex flex-col items-center justify-center h-64 text-xl font-bold text-center text-gray-100 gap-y-5 lg:h-72">

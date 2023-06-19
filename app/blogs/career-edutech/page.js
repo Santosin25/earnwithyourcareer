@@ -1,82 +1,18 @@
-import { NextSeo } from "next-seo";
+export const metadata = {
+  title:
+    "Unlock Your Potential: Exploring the Exciting World of a Career in Educational Technology | EarnWithYourCareer",
+  description:
+    "This blog post explores the exciting career opportunities in educational technology. Learn about the skills and qualifications needed to become an educational technologist, the job outlook for this field, and how to get started in this growing industry.",
+  keywords: ["educational Technology", "career"],
+  author: "Olajubu Oluwatosin",
+  language: "en-US",
+};
 import Link from "next/link";
 import BlogLinkerEdt from "./BlogLinkers";
 
 function CareerEdutech() {
   return (
     <div>
-      <NextSeo
-        title="Unlock Your Potential: Exploring the Exciting World of a Career in Educational Technology | EarnWithYourCareer"
-        description="This blog post explores the exciting career opportunities in educational technology. Learn about the skills and qualifications needed to become an educational technologist, the job outlook for this field, and how to get started in this growing industry."
-        canonical="https://www.earnwithyourcareer.blog/blogs/career-edutech"
-        openGraph={{
-          url: "https://www.earnwithyourcareer.blog/blogs/career-edutech",
-          title:
-            "Unlock Your Potential: Exploring the Exciting World of a Career in Educational Technology | EarnWithYourCareer",
-          description:
-            "This blog post explores the exciting career opportunities in educational technology. Learn about the skills and qualifications needed to become an educational technologist, the job outlook for this field, and how to get started in this growing industry.",
-          images: [
-            {
-              url: "	https://earnwithyourcareer.blog/_next/static/media/internet-edt.a5980c91.jpeg",
-              width: 800,
-              height: 600,
-              alt: "Og Image Alt",
-            },
-          ],
-          site_name: "EarnWithTourCareer",
-          keywords: ["educational Technology", "career"],
-          languageAlternate: [
-            {
-              hrefLang: "en-US",
-              href: "https://earnwithyourcareer.blog/en-us",
-            },
-            {
-              hrefLang: "es-UK",
-              href: "https://earnwithyourcareer.blog/es-uk",
-            },
-          ],
-          author: {
-            name: "Olajubu Oluwatosin",
-            email: "ctosin25@gmail.com",
-            url: "https://earnwithyourcareer.blog/",
-          },
-          facebook: {
-            appId: "3386495838232099",
-            publisher:
-              "https://web.facebook.com/profile.php?id=100083802420253",
-          },
-          linkedin: {
-            title: "EarnWithTourCareer",
-            description:
-              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
-            url: "https://linkedin.com/company/lifehelper/",
-            site_name: "EarnWithTourCareer",
-            images: [
-              {
-                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
-                width: 800,
-                height: 600,
-                alt: "LinkedIn Image Alt",
-              },
-            ],
-          },
-          youtube: {
-            title: "EarnWithTourCareer",
-            description:
-              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
-            url: "https://youtube.com/playlist?list=PLw17loBT6C2vS0bTUH4-x-0OMKxH47ZaY",
-            site_name: "EarnWithTourCareer",
-            images: [
-              {
-                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
-                width: 800,
-                height: 600,
-                alt: "YouTube Image Alt",
-              },
-            ],
-          },
-        }}
-      />
       <section className="bg-blue-900 bg-center bg-no-repeat bg-internet-edt bg-cover select-none h-fit">
         <div className="flex flex-col items-center justify-center h-64 text-xl font-bold text-center text-gray-100 gap-y-5 lg:h-72">
           <Link href="/" target="_parent">

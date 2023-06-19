@@ -1,81 +1,16 @@
 import BlogLinkerWebDev from "./BlogLinkers";
-import { NextSeo } from "next-seo";
+export const metadata = {
+  title: "How to Launch Your Career as a Web Developer | EarnWithYourCareer",
+  description:
+    "Web development is the process of creating websites and web applications. It involves a variety of tasks such as coding, designing, content creation, and server configuration. Web developers use a variety of programming languages and frameworks to create websites and web applications that are accessible to users on the internet.",
+  keywords: ["career web development", "web Developer"],
+  author: "Olajubu Oluwatosin",
+  language: "en-US",
+};
 
 function CareerWebDeveloper() {
   return (
     <div>
-      <NextSeo
-        title="How to Launch Your Career as a Web Developer | EarnWithYourCareer"
-        description="Web development is the process of creating websites and web applications. It involves a variety of tasks such as coding, designing, content creation, and server configuration. Web developers use a variety of programming languages and frameworks to create websites and web applications that are accessible to users on the internet."
-        canonical="https://www.earnwithyourcareer.blog/blogs/career-web-developer"
-        openGraph={{
-          url: "https://www.earnwithyourcareer.blog/blogs/career-web-developer",
-          title:
-            "How to Launch Your Career as a Web Developer | EarnWithYourCareer",
-          description:
-            "Web development is the process of creating websites and web applications. It involves a variety of tasks such as coding, designing, content creation, and server configuration. Web developers use a variety of programming languages and frameworks to create websites and web applications that are accessible to users on the internet.",
-          images: [
-            {
-              url: "https://earnwithyourcareer.blog/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcomputer.363c994a.jpeg&w=128&q=75",
-              width: 800,
-              height: 600,
-              alt: "Og Image Alt",
-            },
-          ],
-          site_name: "EarnWithTourCareer",
-          keywords: ["career web development", "web Developer"],
-          languageAlternate: [
-            {
-              hrefLang: "en-US",
-              href: "https://earnwithyourcareer.blog/en-us",
-            },
-            {
-              hrefLang: "es-UK",
-              href: "https://earnwithyourcareer.blog/es-uk",
-            },
-          ],
-          author: {
-            name: "Olajubu Oluwatosin",
-            email: "ctosin25@gmail.com",
-            url: "https://earnwithyourcareer.blog/",
-          },
-          facebook: {
-            appId: "3386495838232099",
-            publisher:
-              "https://web.facebook.com/profile.php?id=100083802420253",
-          },
-          linkedin: {
-            title: "EarnWithTourCareer",
-            description:
-              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
-            url: "https://linkedin.com/company/lifehelper/",
-            site_name: "EarnWithTourCareer",
-            images: [
-              {
-                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
-                width: 800,
-                height: 600,
-                alt: "LinkedIn Image Alt",
-              },
-            ],
-          },
-          youtube: {
-            title: "EarnWithTourCareer",
-            description:
-              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
-            url: "https://youtube.com/playlist?list=PLw17loBT6C2vS0bTUH4-x-0OMKxH47ZaY",
-            site_name: "EarnWithTourCareer",
-            images: [
-              {
-                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
-                width: 800,
-                height: 600,
-                alt: "YouTube Image Alt",
-              },
-            ],
-          },
-        }}
-      />
       <main className="mainElement">
         <section className="sectionElement secHeaderDivider">
           <article className="articleElement">

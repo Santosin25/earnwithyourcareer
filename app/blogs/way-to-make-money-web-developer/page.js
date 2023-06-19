@@ -1,81 +1,17 @@
 import BlogLinkerLinkWayToMakeMoneyWebDev from "./BlogLinkers";
-import { NextSeo } from "next-seo";
+export const metadata = {
+  title:
+    "30 Creative Ways to Make Money from Home as a Web Developer | EarnWithYourCareer",
+  description:
+    "This article provides 30 creative ways for web developers to make money from home, such as creating websites, developing apps, and offering freelance services. It also covers topics like monetizing a blog, selling digital products, and more.",
+  keywords: ["Make Moneyr", "Web Developer"],
+  author: "Olajubu Oluwatosin",
+  language: "en-US",
+};
 
 function WaysToMakeMoneyWebDeveloper() {
   return (
     <div>
-      <NextSeo
-        title="30 Creative Ways to Make Money from Home as a Web Developer | EarnWithYourCareer"
-        description="This article provides 30 creative ways for web developers to make money from home, such as creating websites, developing apps, and offering freelance services. It also covers topics like monetizing a blog, selling digital products, and more."
-        canonical="https://www.earnwithyourcareer.blog/blogs/way-to-make-money-web-developer"
-        openGraph={{
-          url: "https://www.earnwithyourcareer.blog/blogs/way-to-make-money-web-developer",
-          title:
-            "30 Creative Ways to Make Money from Home as a Web Developer | EarnWithYourCareer",
-          description:
-            "This article provides 30 creative ways for web developers to make money from home, such as creating websites, developing apps, and offering freelance services. It also covers topics like monetizing a blog, selling digital products, and more.",
-          images: [
-            {
-              url: "https://earnwithyourcareer.blog/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcomputer.363c994a.jpeg&w=128&q=75",
-              width: 800,
-              height: 600,
-              alt: "Og Image Alt",
-            },
-          ],
-          site_name: "EarnWithTourCareer",
-          keywords: ["Make Moneyr", "Web Developer"],
-          languageAlternate: [
-            {
-              hrefLang: "en-US",
-              href: "https://earnwithyourcareer.blog/en-us",
-            },
-            {
-              hrefLang: "es-UK",
-              href: "https://earnwithyourcareer.blog/es-uk",
-            },
-          ],
-          author: {
-            name: "Olajubu Oluwatosin",
-            email: "ctosin25@gmail.com",
-            url: "https://earnwithyourcareer.blog/",
-          },
-          facebook: {
-            appId: "3386495838232099",
-            publisher:
-              "https://web.facebook.com/profile.php?id=100083802420253",
-          },
-          linkedin: {
-            title: "EarnWithTourCareer",
-            description:
-              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
-            url: "https://linkedin.com/company/lifehelper/",
-            site_name: "EarnWithTourCareer",
-            images: [
-              {
-                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
-                width: 800,
-                height: 600,
-                alt: "LinkedIn Image Alt",
-              },
-            ],
-          },
-          youtube: {
-            title: "EarnWithTourCareer",
-            description:
-              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
-            url: "https://youtube.com/playlist?list=PLw17loBT6C2vS0bTUH4-x-0OMKxH47ZaY",
-            site_name: "EarnWithTourCareer",
-            images: [
-              {
-                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
-                width: 800,
-                height: 600,
-                alt: "YouTube Image Alt",
-              },
-            ],
-          },
-        }}
-      />
       <main className="mainElement">
         <section className="sectionElement secHeaderDivider">
           <article className="articleElement">

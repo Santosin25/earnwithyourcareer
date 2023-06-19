@@ -1,82 +1,17 @@
 import Link from "next/link";
 import BlogLinkerTradingStategies from "./BlogLinkers";
-import { NextSeo } from "next-seo";
+export const metadata = {
+  title: "A Beginner Guide to Forex Trading Strategies | EarnWithYourCareer",
+  description:
+    "There are countless ways to profit off of trading Forex. Trading strategies help you organize those techniques into a coherent framework that you can follow. This way, you can continually monitor and optimize your Forex strategy.",
+  keywords: ["Trading Strategies", "Forex"],
+  author: "Olajubu Oluwatosin",
+  language: "en-US",
+};
 
 function TradingStatagies() {
   return (
     <>
-      <NextSeo
-        title="A Beginner Guide to Forex Trading Strategies | EarnWithYourCareer"
-        description="There are countless ways to profit off of trading Forex. Trading strategies help you organize those techniques into a coherent framework that you can follow. This way, you can continually monitor and optimize your Forex strategy."
-        canonical="https://www.earnwithyourcareer.blog/blogs/trading-statagies"
-        openGraph={{
-          url: "https://www.earnwithyourcareer.blog/blogs/trading-statagies",
-          title:
-            "A Beginner Guide to Forex Trading Strategies | EarnWithYourCareer",
-          description:
-            "There are countless ways to profit off of trading Forex. Trading strategies help you organize those techniques into a coherent framework that you can follow. This way, you can continually monitor and optimize your Forex strategy.",
-          images: [
-            {
-              url: "https://earnwithyourcareer.blog/_next/static/media/manyCrypto.65be3a74.jpeg",
-              width: 800,
-              height: 600,
-              alt: "Og Image Alt",
-            },
-          ],
-          site_name: "EarnWithTourCareer",
-          keywords: ["Trading Strategies", "Forex"],
-          languageAlternate: [
-            {
-              hrefLang: "en-US",
-              href: "https://earnwithyourcareer.blog/en-us",
-            },
-            {
-              hrefLang: "es-UK",
-              href: "https://earnwithyourcareer.blog/es-uk",
-            },
-          ],
-          author: {
-            name: "Olajubu Oluwatosin",
-            email: "ctosin25@gmail.com",
-            url: "https://earnwithyourcareer.blog/",
-          },
-          facebook: {
-            appId: "3386495838232099",
-            publisher:
-              "https://web.facebook.com/profile.php?id=100083802420253",
-          },
-          linkedin: {
-            title: "EarnWithTourCareer",
-            description:
-              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
-            url: "https://linkedin.com/company/lifehelper/",
-            site_name: "EarnWithTourCareer",
-            images: [
-              {
-                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
-                width: 800,
-                height: 600,
-                alt: "LinkedIn Image Alt",
-              },
-            ],
-          },
-          youtube: {
-            title: "EarnWithTourCareer",
-            description:
-              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
-            url: "https://youtube.com/playlist?list=PLw17loBT6C2vS0bTUH4-x-0OMKxH47ZaY",
-            site_name: "EarnWithTourCareer",
-            images: [
-              {
-                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
-                width: 800,
-                height: 600,
-                alt: "YouTube Image Alt",
-              },
-            ],
-          },
-        }}
-      />
       <main id="scroll-top">
         <section className="mt-16 h-fit select-none bg-blue-900 bg-crypto-hero bg-cover bg-center bg-no-repeat mix-blend-darken">
           <div className="flex h-64 flex-col items-center justify-center gap-y-5 text-center text-xl font-bold text-gray-100 lg:h-72">

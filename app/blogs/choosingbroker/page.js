@@ -1,82 +1,18 @@
 import Link from "next/link";
-import { NextSeo } from "next-seo";
+export const metadata = {
+  title: "How To Choose a Broker | EarnWithYourCareer",
+  description:
+    "This is a good question and you will get a variety of answers if you were to ask around in the trading community. Firstly, I would strongly suggest that you choose one of the bigger well known brokers. Trust me on this!",
+  keywords: ["Forex", "Broker"],
+  author: "Olajubu Oluwatosin",
+  language: "en-US",
+};
 
 import BlogLinkerChoiceBorker from "./BlogLinkers";
 
 function choosing_Broker() {
   return (
     <div>
-      <NextSeo
-        title="How To Choose a Broker | EarnWithYourCareer"
-        description="This is a good question and you will get a variety of answers if you were to ask around in the trading community. Firstly, I would strongly suggest that you choose one of the bigger well known brokers. Trust me on this!"
-        canonical="https://www.earnwithyourcareer.blog/blogs/choosingbroker"
-        openGraph={{
-          url: "https://www.earnwithyourcareer.blog/blogs/choosingbroker",
-          title: "How To Choose a Broker | EarnWithYourCareer",
-          description:
-            "This is a good question and you will get a variety of answers if you were to ask around in the trading community. Firstly, I would strongly suggest that you choose one of the bigger well known brokers. Trust me on this!",
-          images: [
-            {
-              url: "https://earnwithyourcareer.blog/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fafrican-man-fx.92921387.jpg&w=128&q=75",
-              width: 800,
-              height: 600,
-              alt: "Og Image Alt",
-            },
-          ],
-          site_name: "EarnWithTourCareer",
-          keywords: ["Forex", "Broker"],
-          languageAlternate: [
-            {
-              hrefLang: "en-US",
-              href: "https://earnwithyourcareer.blog/en-us",
-            },
-            {
-              hrefLang: "es-UK",
-              href: "https://earnwithyourcareer.blog/es-uk",
-            },
-          ],
-          author: {
-            name: "Olajubu Oluwatosin",
-            email: "ctosin25@gmail.com",
-            url: "https://earnwithyourcareer.blog/",
-          },
-          facebook: {
-            appId: "3386495838232099",
-            publisher:
-              "https://web.facebook.com/profile.php?id=100083802420253",
-          },
-          linkedin: {
-            title: "EarnWithTourCareer",
-            description:
-              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
-            url: "https://linkedin.com/company/lifehelper/",
-            site_name: "EarnWithTourCareer",
-            images: [
-              {
-                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
-                width: 800,
-                height: 600,
-                alt: "LinkedIn Image Alt",
-              },
-            ],
-          },
-          youtube: {
-            title: "EarnWithTourCareer",
-            description:
-              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
-            url: "https://youtube.com/playlist?list=PLw17loBT6C2vS0bTUH4-x-0OMKxH47ZaY",
-            site_name: "EarnWithTourCareer",
-            images: [
-              {
-                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
-                width: 800,
-                height: 600,
-                alt: "YouTube Image Alt",
-              },
-            ],
-          },
-        }}
-      />
       <main className="mainSection">
         <section className="firstSection secHeaderDivider">
           <article className="allArticle">

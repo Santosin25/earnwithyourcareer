@@ -1,81 +1,17 @@
 import BlogLinkerSustainableSourceWithCrypto from "./BlogLinkers";
-import { NextSeo } from "next-seo";
+export const metadata = {
+  title:
+    "How to Create a Sustainable Source of Income with Crypto Trading | EarnWithYourCareer",
+  description:
+    "Crypto trading is the process of buying and selling cryptocurrencies on an online exchange platform. It involves speculating on the price movements of digital currencies such as Bitcoin, Ethereum, Litecoin, and others. Crypto traders use technical analysis and charting tools to identify potential entry and exit points for their trades. They also use risk management strategies to limit their losses in volatile markets.",
+  keywords: ["Sustainable Income", "Crypto Trading"],
+  author: "Olajubu Oluwatosin",
+  language: "en-US",
+};
 
 function SustainableIncome() {
   return (
     <div>
-      <NextSeo
-        title="How to Create a Sustainable Source of Income with Crypto Trading | EarnWithYourCareer"
-        description="Crypto trading is the process of buying and selling cryptocurrencies on an online exchange platform. It involves speculating on the price movements of digital currencies such as Bitcoin, Ethereum, Litecoin, and others. Crypto traders use technical analysis and charting tools to identify potential entry and exit points for their trades. They also use risk management strategies to limit their losses in volatile markets."
-        canonical="https://www.earnwithyourcareer.blog/blogs/sustainable-source-income-with-crypto"
-        openGraph={{
-          url: "https://www.earnwithyourcareer.blog/blogs/sustainable-source-income-with-crypto",
-          title:
-            "How to Create a Sustainable Source of Income with Crypto Trading | EarnWithYourCareer",
-          description:
-            "Crypto trading is the process of buying and selling cryptocurrencies on an online exchange platform. It involves speculating on the price movements of digital currencies such as Bitcoin, Ethereum, Litecoin, and others. Crypto traders use technical analysis and charting tools to identify potential entry and exit points for their trades. They also use risk management strategies to limit their losses in volatile markets.",
-          images: [
-            {
-              url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
-              width: 800,
-              height: 600,
-              alt: "Og Image Alt",
-            },
-          ],
-          site_name: "EarnWithTourCareer",
-          keywords: ["Sustainable Income", "Crypto Trading"],
-          languageAlternate: [
-            {
-              hrefLang: "en-US",
-              href: "https://earnwithyourcareer.blog/en-us",
-            },
-            {
-              hrefLang: "es-UK",
-              href: "https://earnwithyourcareer.blog/es-uk",
-            },
-          ],
-          author: {
-            name: "Olajubu Oluwatosin",
-            email: "ctosin25@gmail.com",
-            url: "https://earnwithyourcareer.blog/",
-          },
-          facebook: {
-            appId: "3386495838232099",
-            publisher:
-              "https://web.facebook.com/profile.php?id=100083802420253",
-          },
-          linkedin: {
-            title: "EarnWithTourCareer",
-            description:
-              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
-            url: "https://linkedin.com/company/lifehelper/",
-            site_name: "EarnWithTourCareer",
-            images: [
-              {
-                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
-                width: 800,
-                height: 600,
-                alt: "LinkedIn Image Alt",
-              },
-            ],
-          },
-          youtube: {
-            title: "EarnWithTourCareer",
-            description:
-              "We are dedicated to helping you build a successful career while also exploring opportunities for passive income. Our goal is to provide you with tools, resoures, and support you need to thrive in both aspect of your life.",
-            url: "https://youtube.com/playlist?list=PLw17loBT6C2vS0bTUH4-x-0OMKxH47ZaY",
-            site_name: "EarnWithTourCareer",
-            images: [
-              {
-                url: "https://earnwithyourcareer.blog/_next/static/media/forex.9afde20b.jpeg",
-                width: 800,
-                height: 600,
-                alt: "YouTube Image Alt",
-              },
-            ],
-          },
-        }}
-      />
       <main className="mainElement">
         <section className="sectionElement secHeaderDivider">
           <article className="articleElement">

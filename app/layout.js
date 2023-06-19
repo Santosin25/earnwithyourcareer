@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Suspense } from "react";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from '@vercel/analytics/react';
 import Loading from "./loading";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -27,8 +27,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <Header />
-        <Suspense fallback={<Loading />}>
-          {children}
+        <Suspense fallback={<Loading />}>{children}
           <Analytics />
         </Suspense>
         <Footer />
