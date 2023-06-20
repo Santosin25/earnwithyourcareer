@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://example.com',
+  siteUrl: 'https://earnwithyourcareer.blog',
   generateRobotsTxt: true,
   changefreq: 'daily',
   priority: 0.7,
