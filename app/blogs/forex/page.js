@@ -3,7 +3,7 @@ export const metadata = {
   title: "What Is Forex - A Beginner Guild To FX | EarnWithYourCareer",
   description:
     "Forex Market or FX is the process of exchanging one currency into another for commercial purpose. It&apos;s also the market for exchanging global currency. For example 1 Dollar to a Euro.",
-  keywords: [" Forex Trade", "Learn", "career"],
+  keywords: [" Forex Trading for Benginer"],
   author: "Olajubu Oluwatosin",
   language: "en-US",
 };

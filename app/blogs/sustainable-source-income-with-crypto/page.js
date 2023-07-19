@@ -4,7 +4,7 @@ export const metadata = {
     "How to Create a Sustainable Source of Income with Crypto Trading | EarnWithYourCareer",
   description:
     "Crypto trading is the process of buying and selling cryptocurrencies on an online exchange platform. It involves speculating on the price movements of digital currencies such as Bitcoin, Ethereum, Litecoin, and others. Crypto traders use technical analysis and charting tools to identify potential entry and exit points for their trades. They also use risk management strategies to limit their losses in volatile markets.",
-  keywords: ["Sustainable Income", "Crypto Trading"],
+  keywords: ["creating a Sustainable Income with Crypto Trading"],
   author: "Olajubu Oluwatosin",
   language: "en-US",
 };

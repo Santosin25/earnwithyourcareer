@@ -3,7 +3,7 @@ export const metadata = {
   title: "How to Launch Your Career as a Web Developer | EarnWithYourCareer",
   description:
     "Web development is the process of creating websites and web applications. It involves a variety of tasks such as coding, designing, content creation, and server configuration. Web developers use a variety of programming languages and frameworks to create websites and web applications that are accessible to users on the internet.",
-  keywords: ["career web development", "web Developer"],
+  keywords: ["How to become a Web Developer"],
   author: "Olajubu Oluwatosin",
   language: "en-US",
 };

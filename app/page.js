@@ -3,7 +3,7 @@ import Link from "next/link";
 import unstopable from "./unstopable.png";
 import BlogLink from "./components/BlogLink";
 
-export default function Home() {
+export default function Home({ posts }) {
   return (
     <>
       <main className="text-gray-950 bg-gray-100">

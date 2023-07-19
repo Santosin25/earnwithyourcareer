@@ -1,9 +1,11 @@
 # earnwithyourcareer
 what next
 [Comment]
-[Google SignIn]
-[page for advertisent]
-[page for web development]
+[SignIn]
+[SEO]
+[sanity]
+
+<!-- What out for error in the Header components -->
 
 
 

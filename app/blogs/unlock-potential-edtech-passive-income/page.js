@@ -4,7 +4,7 @@ export const metadata = {
     "Unlock the Potential of Educational Technology to Generate Passive Income! | EarnWithYourCareer",
   description:
     "Unlock the potential of educational technology to generate passive income! Learn how to use online courses, webinars, and other digital tools to create a steady stream of income without having to work for it. Discover the best strategies for creating and marketing your own educational products.",
-  keywords: ["Educational Technology", "Passive Income"],
+  keywords: ["Educational Technology for Passive Income"],
   author: "Olajubu Oluwatosin",
   language: "en-US",
 };

@@ -4,7 +4,7 @@ export const metadata = {
   title: "How To Actually Trade Forex | EarnWithYourCareer",
   description:
     "This is a good question and you will get a variety of answers if you were to ask around in the trading community. Firstly, I would strongly suggest that you choose one of the bigger well known brokers. Trust me on this!",
-  keywords: ["Forex Trade", "Broker"],
+  keywords: ["Forex Trade example"],
   author: "Olajubu Oluwatosin",
   language: "en-US",
 };

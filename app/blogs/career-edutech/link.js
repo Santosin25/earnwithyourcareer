@@ -7,7 +7,7 @@ export default function LinkCareerEdutech() {
     <div className="linkClass group">
       <Link href="/blogs/career-edutech" target="_parent">
         <div className="container">
-          <div className="">
+          <div className="imageDiv">
             <Image
               src={graduation}
               alt="graduation"

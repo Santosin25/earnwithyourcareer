@@ -3,7 +3,7 @@ export const metadata = {
     "Unlock Your Potential: Exploring the Exciting World of a Career in Educational Technology | EarnWithYourCareer",
   description:
     "This blog post explores the exciting career opportunities in educational technology. Learn about the skills and qualifications needed to become an educational technologist, the job outlook for this field, and how to get started in this growing industry.",
-  keywords: ["educational Technology", "career"],
+  keywords: ["Career in Educational Technology"],
   author: "Olajubu Oluwatosin",
   language: "en-US",
 };

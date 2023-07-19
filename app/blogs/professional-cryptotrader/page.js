@@ -4,7 +4,7 @@ export const metadata = {
     "The Ultimate Guide to Becoming a Professional Crypto Trader | EarnWithYourCareer",
   description:
     "Cryptocurrency trading is becoming increasingly popular as more people become aware of the potential for making money in this market. With the rise of Bitcoin and other digital currencies, many people are looking to get involved in the world of crypto trading. However, it can be difficult to know where to start and how to become a successful trader. This guide will provide you with all the information you need to become a professional crypto trader.",
-  keywords: ["career", "Professional Crypto Trader"],
+  keywords: ["how to Become a Professional Crypto Trader"],
   author: "Olajubu Oluwatosin",
   language: "en-US",
 };

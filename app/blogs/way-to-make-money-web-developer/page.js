@@ -4,7 +4,7 @@ export const metadata = {
     "30 Creative Ways to Make Money from Home as a Web Developer | EarnWithYourCareer",
   description:
     "This article provides 30 creative ways for web developers to make money from home, such as creating websites, developing apps, and offering freelance services. It also covers topics like monetizing a blog, selling digital products, and more.",
-  keywords: ["Make Moneyr", "Web Developer"],
+  keywords: ["passive income for web developer"],
   author: "Olajubu Oluwatosin",
   language: "en-US",
 };

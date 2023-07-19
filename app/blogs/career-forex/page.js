@@ -3,7 +3,7 @@ export const metadata = {
   title: "Career in Forex Trading | EarnWithYourCareer",
   description:
     "Are you interested in a career in Forex trading? Learn about the potential opportunities, risks, and rewards of this exciting field. Get tips on how to get started and what to expect from a career in Forex trading.",
-  keywords: ["forex", "Broker", "forex trading"],
+  keywords: ["Career in Forex Trading"],
   author: "Olajubu Oluwatosin",
   language: "en-US",
 };

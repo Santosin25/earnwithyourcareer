@@ -4,7 +4,7 @@ export const metadata = {
   title: "A Beginner Guide to Forex Trading Strategies | EarnWithYourCareer",
   description:
     "There are countless ways to profit off of trading Forex. Trading strategies help you organize those techniques into a coherent framework that you can follow. This way, you can continually monitor and optimize your Forex strategy.",
-  keywords: ["Trading Strategies", "Forex"],
+  keywords: ["Cryptocurrency trading for Beginners"],
   author: "Olajubu Oluwatosin",
   language: "en-US",
 };
